@@ -100,7 +100,7 @@ namespace Subscriber.DAL
             try
             {
                 var response=new BaseResponseGeneric<bool>();
-               var newSubscribe= await _weightWatchersContext.Subscribers.AddAsync(subscribe);
+                var newSubscribe = await _weightWatchersContext.Subscribers.AddAsync(subscribe);
                 await _weightWatchersContext.SaveChangesAsync();
                 SubscribeCard defaultCard = new SubscribeCard
                 {

@@ -21,7 +21,7 @@ builder.Host.UseSerilog((context, configuration) =>
 builder.Services.AddDbContext<Weight_WatchersContext>(option =>
 {
     
-    option.UseSqlServer(builder.Configuration.GetConnectionString("Weight_WatchersConnectionString"));
+    option.UseSqlServer(builder.Configuration.GetConnectionString("Weight_WatchersConnectionString"), b => b.MigrationsAssembly("Weight_Watchers"));
 });
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

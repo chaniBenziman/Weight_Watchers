@@ -2,6 +2,7 @@
 using Subscriber.CORE.DTO;
 using Subscriber.CORE.Interface_Service;
 using Subscriber.CORE.Response;
+using Subscriber.Services;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Subscriber.WebApi.Controllers
@@ -10,8 +11,8 @@ namespace Subscriber.WebApi.Controllers
     [ApiController]
     public class Weight_WatchersController : ControllerBase
     {
-        Weight_WatchersService _Weight_WatchersService;
-        public Weight_WatchersController(Weight_WatchersService Weight_WatchersService)
+        IWeight_WatchersService _Weight_WatchersService;
+        public Weight_WatchersController(IWeight_WatchersService Weight_WatchersService)
         {
             _Weight_WatchersService = Weight_WatchersService;
         }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.WebApi", "Weight_Watchers\Subscriber.WebApi.csproj", "{370803E5-37E6-4EB4-BA8C-48C3AECFFDA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weight_Watchers", "Weight_Watchers\Weight_Watchers.csproj", "{370803E5-37E6-4EB4-BA8C-48C3AECFFDA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{2928AAA1-CCF8-4525-849E-0DCCD935FD07}"
 EndProject
@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C2F8885A-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{096D6E47-31B1-41BA-8B08-1FB6CC32F4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.Services", "Subscriber.Services\Subscriber.Services.csproj", "{B58B9BF5-9160-44B4-85A6-CDDBEDDAF83C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.Services", "Subscriber.Services\Subscriber.Services.csproj", "{B58B9BF5-9160-44B4-85A6-CDDBEDDAF83C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.Data", "Subscriber.Data\Subscriber.Data.csproj", "{F7AD2BDB-532F-4DAC-A4A9-1E9C5143A9F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.Data", "Subscriber.Data\Subscriber.Data.csproj", "{F7AD2BDB-532F-4DAC-A4A9-1E9C5143A9F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.DAL", "Subscriber.DAL\Subscriber.DAL.csproj", "{6AD81B94-2268-4D57-9534-9BCF23C10F20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.DAL", "Subscriber.DAL\Subscriber.DAL.csproj", "{6AD81B94-2268-4D57-9534-9BCF23C10F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber.CORE", "Subscriber.CORE\Subscriber.CORE.csproj", "{84E5A2D3-5325-427D-A133-8E1F49EE3D32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Subscriber.CORE", "Subscriber.CORE\Subscriber.CORE.csproj", "{84E5A2D3-5325-427D-A133-8E1F49EE3D32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

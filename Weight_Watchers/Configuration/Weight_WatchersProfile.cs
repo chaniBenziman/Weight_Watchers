@@ -9,9 +9,9 @@ namespace Subscriber.WebApi.Configuration
     {
         public Weight_WatchersProfile()
         {
-           //CreateMap<Subscribers, SubscribersDTO>().ForMember(p => p.Height, o => o.Ignore()).ReverseMap();
+           CreateMap<Subscribers, SubscribersDTO>().ForMember(p => p.Height, o => o.Ignore()).ReverseMap();
             CreateMap<BaseResponseGeneric<SubscribeCard>, BaseResponseGeneric<SubscribeCardDTO>>();
-          // CreateMap<SubscribeCardDTO, SubscribeCard>().ReverseMap();
+           CreateMap<SubscribeCardDTO, SubscribeCard>().ReverseMap();
         }
     }
 }
